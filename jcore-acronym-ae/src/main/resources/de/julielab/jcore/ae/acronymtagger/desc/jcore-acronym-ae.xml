@@ -23,6 +23,18 @@
         <multiValued>false</multiValued>
         <mandatory>true</mandatory>
       </configurationParameter>
+      <configurationParameter>
+        <name>AcroList</name>
+        <description>A list of acronym-fullForm pairs known not to be recognized by the JACRO algorithm:
+Format of the file
+
+acronym1 TAB full form1
+acronym2 TAB full form2
+etc.</description>
+        <type>String</type>
+        <multiValued>false</multiValued>
+        <mandatory>false</mandatory>
+      </configurationParameter>
     </configurationParameters>
     <configurationParameterSettings>
       <nameValuePair>
